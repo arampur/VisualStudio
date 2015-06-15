@@ -18,5 +18,14 @@
     <ClCompile Include="Template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stack_template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
