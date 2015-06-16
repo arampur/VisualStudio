@@ -11,6 +11,11 @@ void displaylistcontents(const T& InputList){
 	cout << endl;
 }
 
+//sorting in descending order...
+bool sortinglist(const int leftlist, const int rightlist){
+	return(leftlist > rightlist);
+}
+
 int main(){
 	list<int> mylist;
 	list<int> ::iterator it;
@@ -60,6 +65,20 @@ int main(){
 	displaylistcontents(mylist2);
 	cout << endl;
 
+	//Sorting list elements...
+	mylist2.sort();
+	cout << "Sorting list2 elements in ascending order.." << endl;
+	displaylistcontents(mylist2);
+	cout << endl;
 
+	//sorting in descending order order..
+	mylist2.sort(sortinglist);
+	cout << "Sorted with a predicate: " << endl;
+	displaylistcontents(mylist2);
+
+	//reversing list elements...
+	mylist2.reverse();
+	cout << "After reversing elements of list2.." << endl;
+	displaylistcontents(mylist2);
 	return 0;
 }
