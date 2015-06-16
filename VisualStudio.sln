@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1-List", "Project1-L
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1 - HashMap", "Project1 - HashMap\Project1 - HashMap.vcxproj", "{F0891E8F-7277-40F1-B473-C42976E184B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List Implementation", "List Implementation\List Implementation.vcxproj", "{E92C0AF0-A666-4DAC-9D31-F20826CF0C12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Map Implementation", "Map Implementation\Map Implementation.vcxproj", "{C24B06E6-165C-46AB-A74D-EC62C2287B0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +49,14 @@ Global
 		{F0891E8F-7277-40F1-B473-C42976E184B4}.Debug|Win32.Build.0 = Debug|Win32
 		{F0891E8F-7277-40F1-B473-C42976E184B4}.Release|Win32.ActiveCfg = Release|Win32
 		{F0891E8F-7277-40F1-B473-C42976E184B4}.Release|Win32.Build.0 = Release|Win32
+		{E92C0AF0-A666-4DAC-9D31-F20826CF0C12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E92C0AF0-A666-4DAC-9D31-F20826CF0C12}.Debug|Win32.Build.0 = Debug|Win32
+		{E92C0AF0-A666-4DAC-9D31-F20826CF0C12}.Release|Win32.ActiveCfg = Release|Win32
+		{E92C0AF0-A666-4DAC-9D31-F20826CF0C12}.Release|Win32.Build.0 = Release|Win32
+		{C24B06E6-165C-46AB-A74D-EC62C2287B0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C24B06E6-165C-46AB-A74D-EC62C2287B0B}.Debug|Win32.Build.0 = Debug|Win32
+		{C24B06E6-165C-46AB-A74D-EC62C2287B0B}.Release|Win32.ActiveCfg = Release|Win32
+		{C24B06E6-165C-46AB-A74D-EC62C2287B0B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
