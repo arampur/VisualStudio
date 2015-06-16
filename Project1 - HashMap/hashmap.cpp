@@ -1,6 +1,7 @@
 #include<map>
 #include<string>
 #include<iostream>
+#include<iomanip>
 using namespace std;
 
 template <class T>
@@ -28,5 +29,11 @@ int main(){
 	}
 	else
 		cout << "value pair for the supplied key " << key << " not in map.." << endl;
+	/*mymap.clear();
+	cout << "After clearing the map.." << endl;
+	cout << "\n \n";
+	if (mymap.empty()){
+		cout << "No contents to display..." << endl;
+	}*/
 	return 0;
 }

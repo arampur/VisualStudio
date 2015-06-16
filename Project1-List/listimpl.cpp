@@ -12,7 +12,7 @@ void displaylistcontents(const T& InputList){
 }
 
 //sorting in descending order...
-bool sortinglist(const int leftlist, const int rightlist){
+bool sortinglist(const int& leftlist, const int& rightlist){
 	return(leftlist > rightlist);
 }
 
@@ -32,7 +32,7 @@ int main(){
 	cout << "List 1 contains " << mylist.size() << " elements..." << endl;
 	displaylistcontents(mylist);
 	cout << "\n";
-	
+
 	//copy elements to another list
 	list<int>mylist2(mylist);
 	cout << "List 2 now contains " << mylist2.size() << " elements.." << endl;
@@ -42,17 +42,17 @@ int main(){
 	//insert elements at the middle of the list..
 	it = mylist2.begin();
 	++it;
-	mylist2.insert(it,20);
+	mylist2.insert(it, 20);
 
 	cout << "List after inserting 20.." << endl;
 	displaylistcontents(mylist2);
 	cout << "\n";
-	
+
 	auto myvalue2 = mylist2.insert(mylist2.begin(), 100);
 	cout << "After inserting 100 into the list, list now contains: " << endl;
 	displaylistcontents(mylist2);
 	cout << "\n";
-	
+
 	//deleting 100 from the list...
 	//mylist2.erase(mylist2.begin(), myvalue2);
 	mylist2.erase(myvalue2);

@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A5811E51-B262-4E14-B910-3442945938A3}</ProjectGuid>
-    <RootNamespace>Project1List</RootNamespace>
+    <ProjectGuid>{C13A04E8-C21B-4AF1-99B0-A26311692C34}</ProjectGuid>
+    <RootNamespace>Project1newhasmap</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,7 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="listimpl.cpp" />
+    <ClCompile Include="hashmap_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
