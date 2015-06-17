@@ -13,11 +13,11 @@ void displaymapelements(const X& Input){
 }
 int main(){
 	map<int, string> mymap;
-	/*mymap.insert(make_pair(1, "Amith"));
-	mymap.insert(make_pair(2, "Akshath"));
-	mymap.insert(make_pair(3, "Supreeth"));
-	mymap.insert(make_pair(4, "Ajay"));*/
-	//dynamic map
+	mymap.insert(make_pair(1, "amith"));
+	mymap.insert(make_pair(2, "akshath"));
+	mymap.insert(make_pair(3, "supreeth"));
+	mymap.insert(make_pair(4, "ajay"));
+	
 	
 	cout << "Map contains " << mymap.size() << " key value pairs.." << endl;
 	displaymapelements(mymap);
