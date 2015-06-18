@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fullstring", "fullstring\fu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1 - Dequeue", "Project1 - Dequeue\Project1 - Dequeue.vcxproj", "{6892EB69-3605-4B94-A03A-835E3FEFE803}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1-Hashdemo", "Project1-Hashdemo\Project1-Hashdemo.vcxproj", "{E5A1A292-0115-46CA-9C48-2E321DBECC29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,6 +89,10 @@ Global
 		{6892EB69-3605-4B94-A03A-835E3FEFE803}.Debug|Win32.Build.0 = Debug|Win32
 		{6892EB69-3605-4B94-A03A-835E3FEFE803}.Release|Win32.ActiveCfg = Release|Win32
 		{6892EB69-3605-4B94-A03A-835E3FEFE803}.Release|Win32.Build.0 = Release|Win32
+		{E5A1A292-0115-46CA-9C48-2E321DBECC29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5A1A292-0115-46CA-9C48-2E321DBECC29}.Debug|Win32.Build.0 = Debug|Win32
+		{E5A1A292-0115-46CA-9C48-2E321DBECC29}.Release|Win32.ActiveCfg = Release|Win32
+		{E5A1A292-0115-46CA-9C48-2E321DBECC29}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
