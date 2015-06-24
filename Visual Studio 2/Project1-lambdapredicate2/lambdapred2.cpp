@@ -12,10 +12,10 @@ void displayitems(const T& Input){
 int main(){
 	vector<string>myvector;
 	myvector.push_back("amith");
-	myvector.push_back("Akshath");
+	myvector.push_back("akshath");
 	myvector.push_back("appaji");
-	myvector.push_back("Mummy");
-	myvector.push_back("Ajjiajja");
+	myvector.push_back("mummy");
+	myvector.push_back("ajjiajja");
 	cout << "Vector elements in order of insertion : " << endl;
 	displayitems(myvector);
 
@@ -25,7 +25,7 @@ int main(){
 
 	cout << "Using predicate sort method..." << endl;
 	sort(myvector.begin(), myvector.end(),
-	[](int Num1, int Num2) {return (Num1 < Num2);
+	[](string Num1, string Num2) {return (Num1 > Num2);
 	});
 	displayitems(myvector);
 	return 0;
