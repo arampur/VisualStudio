@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FAD01563-8BFF-45BE-A2F5-F242C18ABB0D}</ProjectGuid>
-    <RootNamespace>Project1findandfindif</RootNamespace>
+    <ProjectGuid>{463737CA-8C96-438D-B13F-4AF0BF89817C}</ProjectGuid>
+    <RootNamespace>Project1queueimple</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,7 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="findandif.cpp" />
+    <ClCompile Include="Queueimplemn.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

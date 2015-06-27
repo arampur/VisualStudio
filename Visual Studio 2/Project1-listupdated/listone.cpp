@@ -11,7 +11,7 @@ void display(const T& Input){
 		cout << *iElement << "  " << endl;
 }
 int main(){
-	list<string> mylist;
+	vector<string> mylist;
 	mylist.push_back("Amith");
 	mylist.push_back("rampur");
 	mylist.push_back("rishika");
@@ -23,13 +23,17 @@ int main(){
 	display(mylist);
 
 	cout << "contents of list after sorting..." << endl;
-	sort(mylist.begin(), mylist.end());
+	/*sort(mylist.begin(), mylist.end());
 	display(mylist);
 	cout << endl;
-
-	cout << "contents of list after unique sort..." << endl;
-	auto uniqsort = unique(mylist.begin(), mylist.end());
-	mylist.erase(uniqsort, mylist.end());
+*/
+	sort(mylist.begin(), mylist.end());
 	display(mylist);
-	return 0;
+
+	
+	/*auto uniqsort = unique(mylist.begin(), mylist.end());
+	mylist.erase(uniqsort, mylist.end());
+	cout << "contents of list after unique sort..." << endl;
+	display(mylist);
+	return 0;*/
 }

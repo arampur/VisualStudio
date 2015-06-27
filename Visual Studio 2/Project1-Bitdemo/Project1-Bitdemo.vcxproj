@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FAD01563-8BFF-45BE-A2F5-F242C18ABB0D}</ProjectGuid>
-    <RootNamespace>Project1findandfindif</RootNamespace>
+    <ProjectGuid>{3602FC97-1B5D-4BBD-89BF-D9823D39C6A2}</ProjectGuid>
+    <RootNamespace>Project1Bitdemo</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,7 +65,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="findandif.cpp" />
+    <ClCompile Include="bitset.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
