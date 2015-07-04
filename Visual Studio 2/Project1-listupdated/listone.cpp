@@ -62,5 +62,8 @@ int main(){
 	cout << "Generating random values for integer vector : " << endl;
 	generate(intvector.begin(), intvector.end(), rand);
 	display(intvector);
+	cout << "Generating using generate_n function : " << endl;
+	generate_n(intvector.begin(), 3, rand);
+	display(intvector);
 	return 0;
 }
