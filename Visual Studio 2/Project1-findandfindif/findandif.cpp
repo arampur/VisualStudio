@@ -39,8 +39,8 @@ int main(){
 	else
 		cout << "No even number in the collection.." << endl;
 
-	size_t numzeros = count(myvector.begin(), myvector.end(), 1);
-	cout << "Number of istances of 1 in the collecton : " << numzeros << endl;
+	size_t numones = count(myvector.begin(), myvector.end(), 1);
+	cout << "Number of istances of 1 in the collecton : " << numones << endl;
 
 	//count number of even
 	size_t numofeven = count_if(myvector.begin(), myvector.end(), [](int& numb) {return (numb % 2) == 0; });
@@ -54,7 +54,7 @@ int main(){
 	cout << endl;*/
 	cout << "\n";
 	cout << "Just filling with values..." << endl;
-	fill_n(myvector.begin() + 4, 5, 10);
+	fill_n(myvector.begin() + 5, 4, 10);
 	for (size_t index = 0; index < myvector.size(); ++index)
 		cout << myvector[index] << "  ";
 	cout << endl;
