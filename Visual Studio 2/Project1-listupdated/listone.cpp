@@ -65,5 +65,18 @@ int main(){
 	cout << "Generating using generate_n function : " << endl;
 	generate_n(intvector.begin(), 3, rand);
 	display(intvector);
+
+	list<int> mylist2;
+	mylist2.push_back(3);
+	mylist2.push_back(12);
+	mylist2.push_back(5);
+	mylist2.push_back(52);
+	mylist2.push_back(35);
+	mylist2.push_back(21);
+	//sort(mylist2.begin(), mylist2.end());
+	cout << "different sort method : " << endl;
+	sort(mylist.begin(), mylist.begin() + ((mylist.end() - mylist.begin()) / 2));
+	display(mylist2);
 	return 0;
+	
 }
