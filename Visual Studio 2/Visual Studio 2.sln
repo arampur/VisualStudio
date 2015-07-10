@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1-ContactDirectory",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1-LastOne", "Project1-LastOne\Project1-LastOne.vcxproj", "{E1EF1BA0-979F-47AE-BC55-29A80D60FAB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1-Filestream", "Project1-Filestream\Project1-Filestream.vcxproj", "{A6717579-35CC-4A4F-920C-D41DE618802C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -93,6 +95,10 @@ Global
 		{E1EF1BA0-979F-47AE-BC55-29A80D60FAB4}.Debug|Win32.Build.0 = Debug|Win32
 		{E1EF1BA0-979F-47AE-BC55-29A80D60FAB4}.Release|Win32.ActiveCfg = Release|Win32
 		{E1EF1BA0-979F-47AE-BC55-29A80D60FAB4}.Release|Win32.Build.0 = Release|Win32
+		{A6717579-35CC-4A4F-920C-D41DE618802C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6717579-35CC-4A4F-920C-D41DE618802C}.Debug|Win32.Build.0 = Debug|Win32
+		{A6717579-35CC-4A4F-920C-D41DE618802C}.Release|Win32.ActiveCfg = Release|Win32
+		{A6717579-35CC-4A4F-920C-D41DE618802C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
